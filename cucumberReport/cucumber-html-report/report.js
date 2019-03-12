@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/CognizantTestCode.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/InSprintTesting.feature");
 formatter.feature({
   "line": 1,
-  "name": "check url",
+  "name": "InSprint Testing",
   "description": "",
-  "id": "check-url",
+  "id": "insprint-testing",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 6,
   "name": "validating cognizant home page",
   "description": "",
-  "id": "check-url;validating-cognizant-home-page",
+  "id": "insprint-testing;validating-cognizant-home-page",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -43,28 +43,28 @@ formatter.examples({
   "line": 13,
   "name": "",
   "description": "",
-  "id": "check-url;validating-cognizant-home-page;",
+  "id": "insprint-testing;validating-cognizant-home-page;",
   "rows": [
     {
       "cells": [
         "TestNo"
       ],
       "line": 15,
-      "id": "check-url;validating-cognizant-home-page;;1"
+      "id": "insprint-testing;validating-cognizant-home-page;;1"
     },
     {
       "cells": [
         "1"
       ],
       "line": 16,
-      "id": "check-url;validating-cognizant-home-page;;2"
+      "id": "insprint-testing;validating-cognizant-home-page;;2"
     },
     {
       "cells": [
         "2"
       ],
       "line": 17,
-      "id": "check-url;validating-cognizant-home-page;;3"
+      "id": "insprint-testing;validating-cognizant-home-page;;3"
     }
   ],
   "keyword": "Examples"
@@ -85,14 +85,14 @@ formatter.match({
   "location": "stepDefinition.driver_path()"
 });
 formatter.result({
-  "duration": 273130220,
+  "duration": 204786213,
   "status": "passed"
 });
 formatter.scenario({
   "line": 16,
   "name": "validating cognizant home page",
   "description": "",
-  "id": "check-url;validating-cognizant-home-page;;2",
+  "id": "insprint-testing;validating-cognizant-home-page;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -125,35 +125,35 @@ formatter.match({
   "location": "stepDefinition.a_User()"
 });
 formatter.result({
-  "duration": 21900,
+  "duration": 25298,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.hit_the_cognizant_bank_url()"
 });
 formatter.result({
-  "duration": 13952091042,
+  "duration": 14309519567,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
 });
 formatter.result({
-  "duration": 62184532,
+  "duration": 51264140,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.clicks_on_new_account()"
 });
 formatter.result({
-  "duration": 332121550,
+  "duration": 444464289,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.new_account_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 4197022776,
+  "duration": 4273938243,
   "status": "passed"
 });
 formatter.background({
@@ -172,14 +172,14 @@ formatter.match({
   "location": "stepDefinition.driver_path()"
 });
 formatter.result({
-  "duration": 154430,
+  "duration": 84956,
   "status": "passed"
 });
 formatter.scenario({
   "line": 17,
   "name": "validating cognizant home page",
   "description": "",
-  "id": "check-url;validating-cognizant-home-page;;3",
+  "id": "insprint-testing;validating-cognizant-home-page;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -212,35 +212,35 @@ formatter.match({
   "location": "stepDefinition.a_User()"
 });
 formatter.result({
-  "duration": 38891,
+  "duration": 21522,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.hit_the_cognizant_bank_url()"
 });
 formatter.result({
-  "duration": 14171025962,
+  "duration": 13090218015,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
 });
 formatter.result({
-  "duration": 17871275,
+  "duration": 31416608,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.clicks_on_new_account()"
 });
 formatter.result({
-  "duration": 271227590,
+  "duration": 278039147,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.new_account_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 4229670674,
+  "duration": 4219599085,
   "status": "passed"
 });
 });

@@ -1,4 +1,4 @@
-Feature: Acceptance Testing
+Feature: InSprint Testing
 
   Background: set property
     Given driver path

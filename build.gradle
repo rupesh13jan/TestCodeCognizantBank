@@ -46,3 +46,8 @@ task run(type: Test){
 include '**/CognizantTestRunner.class'
 }
 
+task runTest(type: Test){
+
+include '**/CognizantTestRunner.class'
+}
+
