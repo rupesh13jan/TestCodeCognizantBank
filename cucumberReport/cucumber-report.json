@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "set property",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 273130220,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "driver path",
+            "match": {
+              "location": "stepDefinition.driver_path()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "validating cognizant home page",
+        "description": "",
+        "id": "check-url;validating-cognizant-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a User",
+            "match": {
+              "location": "stepDefinition.a_User()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13952091042,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hit the cognizant bank url",
+            "match": {
+              "location": "stepDefinition.hit_the_cognizant_bank_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62184532,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cognizant bank home page should get open",
+            "match": {
+              "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 332121550,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on new account",
+            "match": {
+              "location": "stepDefinition.clicks_on_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4197022776,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "new account page should be displayed",
+            "match": {
+              "location": "stepDefinition.new_account_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "set property",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 154430,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "driver path",
+            "match": {
+              "location": "stepDefinition.driver_path()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "validating cognizant home page",
+        "description": "",
+        "id": "check-url;validating-cognizant-home-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38891,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a User",
+            "match": {
+              "location": "stepDefinition.a_User()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14171025962,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hit the cognizant bank url",
+            "match": {
+              "location": "stepDefinition.hit_the_cognizant_bank_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17871275,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cognizant bank home page should get open",
+            "match": {
+              "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271227590,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on new account",
+            "match": {
+              "location": "stepDefinition.clicks_on_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4229670674,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "new account page should be displayed",
+            "match": {
+              "location": "stepDefinition.new_account_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check url",
+    "description": "",
+    "id": "check-url",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/CognizantTestCode.feature"
+  }
+]
