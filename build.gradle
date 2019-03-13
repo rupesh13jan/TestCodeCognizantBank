@@ -51,3 +51,8 @@ task runTest(type: Test){
 include '**/InSprintTestingRunner.class'
 }
 
+task runRegressionTest(type: Test){
+
+include '**/RegressionTestingRunner.class'
+}
+

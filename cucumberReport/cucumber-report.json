@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 204786213,
+              "duration": 201744046,
               "status": "passed"
             },
             "line": 4,
@@ -27,13 +27,13 @@
         "line": 16,
         "name": "validating cognizant home page",
         "description": "",
-        "id": "insprint-testing;validating-cognizant-home-page;;2",
+        "id": "regression-testing;validating-cognizant-home-page;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 25298,
+              "duration": 15858,
               "status": "passed"
             },
             "line": 7,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 14309519567,
+              "duration": 14356989775,
               "status": "passed"
             },
             "line": 8,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 51264140,
+              "duration": 29882497,
               "status": "passed"
             },
             "line": 9,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 444464289,
+              "duration": 327379892,
               "status": "passed"
             },
             "line": 10,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 4273938243,
+              "duration": 4381555180,
               "status": "passed"
             },
             "line": 11,
@@ -102,7 +102,7 @@
         "steps": [
           {
             "result": {
-              "duration": 84956,
+              "duration": 103079,
               "status": "passed"
             },
             "line": 4,
@@ -118,13 +118,13 @@
         "line": 17,
         "name": "validating cognizant home page",
         "description": "",
-        "id": "insprint-testing;validating-cognizant-home-page;;3",
+        "id": "regression-testing;validating-cognizant-home-page;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 21522,
+              "duration": 61923,
               "status": "passed"
             },
             "line": 7,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 13090218015,
+              "duration": 12718004939,
               "status": "passed"
             },
             "line": 8,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 31416608,
+              "duration": 49076060,
               "status": "passed"
             },
             "line": 9,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 278039147,
+              "duration": 481266708,
               "status": "passed"
             },
             "line": 10,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 4219599085,
+              "duration": 4180642945,
               "status": "passed"
             },
             "line": 11,
@@ -183,12 +183,194 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "line": 3,
+        "name": "set property",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 246560,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "driver path",
+            "match": {
+              "location": "stepDefinition.driver_path()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "validating cognizant home page for regression testing",
+        "description": "",
+        "id": "regression-testing;validating-cognizant-home-page-for-regression-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58903,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a User",
+            "match": {
+              "location": "stepDefinition.a_User()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12851994004,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "hit the cognizant bank url",
+            "match": {
+              "location": "stepDefinition.hit_the_cognizant_bank_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32279380,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "cognizant bank home page should get open",
+            "match": {
+              "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285215447,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on new account",
+            "match": {
+              "location": "stepDefinition.clicks_on_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4205844950,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "new account page should be displayed",
+            "match": {
+              "location": "stepDefinition.new_account_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "set property",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 198230,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "driver path",
+            "match": {
+              "location": "stepDefinition.driver_path()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "validating cognizant home page for regression testing",
+        "description": "",
+        "id": "regression-testing;validating-cognizant-home-page-for-regression-testing;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52862,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a User",
+            "match": {
+              "location": "stepDefinition.a_User()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12545603072,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "hit the cognizant bank url",
+            "match": {
+              "location": "stepDefinition.hit_the_cognizant_bank_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80547416,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "cognizant bank home page should get open",
+            "match": {
+              "location": "stepDefinition.cognizant_bank_home_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 446110918,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on new account",
+            "match": {
+              "location": "stepDefinition.clicks_on_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4187001027,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "new account page should be displayed",
+            "match": {
+              "location": "stepDefinition.new_account_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
     ],
-    "name": "InSprint Testing",
+    "name": "Regression Testing",
     "description": "",
-    "id": "insprint-testing",
+    "id": "regression-testing",
     "keyword": "Feature",
-    "uri": "src/main/java/features/InSprintTesting.feature"
+    "uri": "src/main/java/features/RegressionTesting.feature"
   }
 ]

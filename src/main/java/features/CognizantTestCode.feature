@@ -1,4 +1,4 @@
-Feature: Acceptance Testing
+Feature: Smoke Testing
 
   Background: set property
     Given driver path
