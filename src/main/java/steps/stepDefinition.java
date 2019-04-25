@@ -27,7 +27,7 @@ public class stepDefinition
 	@When("^hit the cognizant bank url$")
 	public void hit_the_cognizant_bank_url() throws Throwable {
 		driver=new ChromeDriver();
-		driver.get("http://localhost:8082/CognizantBanking/");
+		driver.get("http://localhost:8004/CognizantBanking/");
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 	}
